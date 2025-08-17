@@ -1,0 +1,24 @@
+{
+	"name": "tunnelsobsidian",
+	"version": "0.1.0",
+	"private": true,
+	"author": "Matty White",
+	"description": "Obsidian plugin that sends notes to external URLs via configurable tunnels.",
+	"license": "MIT",
+	"scripts": {
+		"build": "node esbuild.config.mjs production",
+		"dev": "node esbuild.config.mjs",
+		"check": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.9",
+		"esbuild": "^0.21.4",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"html2canvas": "^1.4.1",
+		"jspdf": "^2.5.1",
+		"obsidian": "^1.6.3",
+		"tslib": "^2.6.3"
+	}
+} 

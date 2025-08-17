@@ -1,0 +1,10 @@
+{
+	"id": "tunnelsobsidian",
+	"name": "Tunnels",
+	"version": "0.1.0",
+	"minAppVersion": "0.9.12",
+	"description": "Send notes to external URLs through configurable tunnels.",
+	"author": "Matty White",
+	"authorUrl": "https://example.com",
+	"isDesktopOnly": false
+} 

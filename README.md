@@ -1,5 +1,35 @@
 # Obsidian Tunnels Plugin - Project Plan
 
+## Quickstart (Development)
+
+1. Install dependencies
+
+```
+npm install
+```
+
+2. Start dev build (rebuilds on change)
+
+```
+npm run dev
+```
+
+3. Load into Obsidian
+
+- In Obsidian, enable community plugins
+- Create a test vault folder
+- Inside the vault, create `.obsidian/plugins/tunnelsobsidian/`
+- Copy `manifest.json` and `main.js` from this repo into that folder
+- Reload plugins in Obsidian
+
+4. Build for release
+
+```
+npm run build
+```
+
+---
+
 ## Project Overview
 Create an Obsidian plugin that allows users to send notes to external URLs via configurable "tunnels" and handle responses with multiple action options.
 
